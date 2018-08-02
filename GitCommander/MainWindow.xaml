@@ -1,0 +1,73 @@
+﻿<Window x:Class="GitCommander.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GitCommander"
+        mc:Ignorable="d"
+        Title="Git Commander" Height="659.231" Width="1000">
+    <StackPanel>
+        <Grid Height="628" Margin="0,0,-0.4,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="168*"/>
+                <ColumnDefinition Width="846*"/>
+         
+
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="0,10,15,0">
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="46*"></ColumnDefinition>
+                        <ColumnDefinition Width="73*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Margin="0,0,53.8,-0.4" Grid.ColumnSpan="2" >
+                        <Image Source="Resources/rocket.png" ToolTip="Intialize Setup" Margin="0,0,0,10" Height="50" MouseDown="initializationClicked"></Image>
+                        <Image Source="Resources/cloud-computing.png"  Margin="0,0,0,10" Height="50"  MouseDown="cloneClicked" ToolTip="Clone Repository"></Image>
+
+                        <Image Source="Resources/view-list.png" Height="50"  Margin="0,0,0,10"  ToolTip="Repositries"></Image>
+                        <Image Source="Resources/magnet.png" Height="50"  Margin="0,0,0,10" ToolTip="Pull Repository"  MouseDown="pullClicked"/>
+                        <Image ToolTip="Push Changes" Source="Resources/transfer.png" Height="50"  Margin="0,0,0,10" MouseDown="pushClicked" ></Image>
+                        <Image ToolTip="Branch Mangement" Source="Resources/branch.png" Height="50"  Margin="0,0,0,10"  MouseDown="branchClicked"></Image>
+                        <Image ToolTip="KiNGs" Source="Resources/kingslogo.jpg" Height="50"  Margin="0,0,0,10"  MouseDown="kingsLogoClicked"/>
+                       <Image ToolTip="Love" Source="Resources/heart.png" Height="50"  Margin="0,0,0,10"  ></Image>
+                        <Image  ToolTip="GitHub" Source="Resources/git.png" Height="50"  Margin="0,0,0,10"  MouseDown="GitLogoClicked"></Image>
+                        <Image  ToolTip="Close" Source="Resources/sign-out.png" Height="50"  Margin="0,0,10.2,10"  MouseDown="GitLogoClicked"></Image>
+
+
+                    </StackPanel>
+               
+                </Grid>
+             
+
+            </StackPanel>
+            <StackPanel Grid.Column="3" Margin="0.2,0,-0.4,0"/>
+            <StackPanel Grid.Column="1">
+                <TextBlock Margin="10,10,31.8,10" FontSize="20" FontWeight="Medium" FontStyle="Oblique" TextAlignment="Center" Text="GitHub Commander"></TextBlock>
+
+                <Grid x:Name="intializationPanel" Visibility="Hidden">
+                    <TextBlock Text='intializationPanel' TextAlignment="Center" FontSize="250"></TextBlock>  
+                </Grid>
+              
+                <Grid x:Name="clonePanel" Visibility="Hidden">
+                    <TextBlock Text='Reasy' TextAlignment="Center" FontSize="250"></TextBlock>
+                </Grid>
+                <Grid x:Name="RepositryPanel" Visibility="Hidden">
+                    <TextBlock Text='RepositryPanel' TextAlignment="Center" FontSize="250"></TextBlock>
+                </Grid>
+                <Grid x:Name="pullPanel" Visibility="Hidden">
+                    <TextBlock Text='pullPanel' TextAlignment="Center" FontSize="250"></TextBlock>
+                </Grid>
+                <Grid x:Name="pushPanel" Visibility="Hidden">
+                    <TextBlock Text='pushPanel' TextAlignment="Center" FontSize="250"></TextBlock>
+                </Grid>
+                <Grid x:Name="branchPanel" Visibility="Hidden">
+                    <TextBlock Text='branchPanel' TextAlignment="Center" FontSize="250"></TextBlock>
+                </Grid>
+
+
+
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\bin\Debug\GitCommander.exe.config
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\bin\Debug\GitCommander.exe
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\bin\Debug\GitCommander.pdb
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander.csprojAssemblyReference.cache
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\MainWindow.g.cs
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\App.g.cs
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander_MarkupCompile.cache
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander_MarkupCompile.lref
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\MainWindow.baml
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander.g.resources
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander.Properties.Resources.resources
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander.csproj.GenerateResource.cache
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander.csproj.CoreCompileInputs.cache
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander.exe
+c:\users\dawar stack\source\repos\GitCommander\GitCommander\obj\Debug\GitCommander.pdb
